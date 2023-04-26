@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', monospace;
+}
+
+
+
+:root {
+    --purple-700: #322650;
+    --purple-400: #8257E5;
+    --purple-100: #A883FF;   
+    --white: #ffffff;
+    --black-200: #202024;
+    --black-700: #121214;
+    --gray: #6F6F6F;
+    --gray-100: #979595;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    color: var(--white);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-700);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 400px;
+    height: 400px;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.header i {
+    font-size: 40px;
+    color: var(--purple-400);
+    position: relative;
+}
+
+.title-header p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    background-color: var(--black-200);
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.input-control {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.input-control input {
+    padding: 5px;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    background-color: var(--black-700);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    color: var(--gray-100);
+}
+
+.input-control input:focus {
+    outline: none;
+    border: 2px solid var(--purple-400);
+    transition: 0.5s;
+}
+
+.input-control:focus-within i {
+    color: var(--purple-400);
+    transition: 0.5s;
+}
+
+.ph {
+    position: absolute;
+    padding: 10px;
+    color: var(--gray);
+    min-width: 50px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 15px;
+
+}
+
+.text a {
+    text-decoration: none;
+    color: var(--purple-400);
+}
+
+.text a:hover {
+    color: var(--purple-100);
+    transition: 0.5s;
+}
+
+.submit-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-control input {
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+    background-color: var(--purple-400);
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.submit-control input:hover {
+    background-color: var(--purple-100);
+    transition: 0.5s;
+}
+
+.register-redirect {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.register-redirect a {
+    color: var(--purple-400);
+    text-decoration: none;
+}
+
+.register-redirect a:hover {
+    color: var(--purple-100);
+    transition: 0.5s;
+}
