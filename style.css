@@ -70,11 +70,19 @@ main {
     }
 }
 
+@media screen and (max-height: 672px) {
+    body {
+        width: 100%;
+        height: 50%;
+    }
+}
+
 @media  screen and (max-width: 300px) {
     html {
         font-size: 40%;
     }
 }
+
 /* ASIDE CSS */
 
 aside { 
