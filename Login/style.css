@@ -173,7 +173,7 @@ form {
     margin-bottom: 30px;
 }
 
-.submit-control input:hover {
+.submit-control input:hoc  ver {
     background-color: var(--purple-100);
     transition: 0.5s;
 }
@@ -183,7 +183,6 @@ form {
     justify-content: center;
     margin-bottom: 20px;
     width: 80%;
-
 }
 
 .register-redirect a {
