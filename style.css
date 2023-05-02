@@ -1,4 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', monospace;
+}
 
+:root {
+    --purple-700: #322650;
+    --purple-400: #8257E5;
+    --purple-100: #A883FF;   
+    --white: #ffffff;
+    --black-200: #202024;
+    --black-700: #121214;
+    --gray: #6F6F6F;
+    --gray-100: #979595;
+}
+
+
+html  {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--black-700);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
 
 main {
     display: flex;
